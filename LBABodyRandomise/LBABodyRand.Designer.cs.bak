@@ -1,0 +1,96 @@
+﻿namespace LBABodyRandomise
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.btnFindLoc = new System.Windows.Forms.Button();
+            this.lblBodyLocation = new System.Windows.Forms.Label();
+            this.txtBodyLoc = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(12, 64);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(320, 208);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // btnFindLoc
+            // 
+            this.btnFindLoc.Location = new System.Drawing.Point(496, 9);
+            this.btnFindLoc.Name = "btnFindLoc";
+            this.btnFindLoc.Size = new System.Drawing.Size(75, 23);
+            this.btnFindLoc.TabIndex = 5;
+            this.btnFindLoc.Text = "Select";
+            this.btnFindLoc.UseVisualStyleBackColor = true;
+            this.btnFindLoc.Click += new System.EventHandler(this.btnFindLoc_Click);
+            // 
+            // lblBodyLocation
+            // 
+            this.lblBodyLocation.AutoSize = true;
+            this.lblBodyLocation.Location = new System.Drawing.Point(16, 15);
+            this.lblBodyLocation.Name = "lblBodyLocation";
+            this.lblBodyLocation.Size = new System.Drawing.Size(104, 13);
+            this.lblBodyLocation.TabIndex = 4;
+            this.lblBodyLocation.Text = "BODY.HQR location";
+            // 
+            // txtBodyLoc
+            // 
+            this.txtBodyLoc.Location = new System.Drawing.Point(126, 12);
+            this.txtBodyLoc.Name = "txtBodyLoc";
+            this.txtBodyLoc.Size = new System.Drawing.Size(364, 20);
+            this.txtBodyLoc.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFindLoc);
+            this.Controls.Add(this.lblBodyLocation);
+            this.Controls.Add(this.txtBodyLoc);
+            this.Controls.Add(this.listView1);
+            this.Name = "Form1";
+            this.Text = "LBABodyRand";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button btnFindLoc;
+        private System.Windows.Forms.Label lblBodyLocation;
+        private System.Windows.Forms.TextBox txtBodyLoc;
+    }
+}
+

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LBABodyRandomise.exe" version="1.0.0.4" publicKeyToken="f76fb2c4c73f171c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="twinmagic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LBABodyRandomise" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LBABodyRandomise.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBABodyRandomise.exe" size="272296">
+      <assemblyIdentity name="LBABodyRandomise" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r/zJtWYObK23c3HLWyuSxopvA/JFpLVb+tfMLc6NKBg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lba.xml" size="9297" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ORquFmpDHts9aKB9jvmkowFTIJpZIHs6Dd8uSsAmK6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lba2.xml" size="37680" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jBIahG66U+pIe8U/AuNdSs+fWx402cfxvq6l7Efg1LQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LBABodyRandomise.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="twinmagic.ico" size="121978">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nNV+UUGCf3yKJaim4rv3S3zrnaheWcT2HSbsSS8riyw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=32GBRAM\User" issuerKeyHash="2594d9c1cfa9c55e851dd52966391badf5d795e1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9lp0EdjQQxVxtgxSk0wb1tNrWE+7Ec075mLvCf62Zps=</DigestValue></Reference></SignedInfo><SignatureValue>H7DFAQk/Nd/j4M1lrRizPGMkF/iRuvgB36hFcSQxLLQ7ZEzU5wLqMm5Sr1mJcts6BBPhAHN6/q7fPbDMMQMIsqST8+AOWeCxT46QdOaH+lEKYSumZW0/jUxE+aiIt9dGFZlbGng6I57TOPfUxUaM3cTH/P/BomjDWuE4SbZlFsY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yncnc9Wv6OVuievfBl2hIZnGkOZI3CH4+oMrxq6wfwuWdl8sWJk+ab+DiDQjBSQrNIKLDPpr4LpbnMupe6CzY1b0H+r4xqLcywjFgjrSBPuyt6iw1hRI0YYDOFEYxutfypYXbWyg2qb0dkYnnvJSV2wM6Oo2UQje/huzNjGtBVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9b66b6fe09ef62e63bcd11bb4f586bd3d61b4c93520cb6711543d0d811745af6" Description="" Url=""><as:assemblyIdentity name="LBABodyRandomise.exe" version="1.0.0.4" publicKeyToken="f76fb2c4c73f171c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=32GBRAM\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iyER9L9SwFT3VZ2W+p4h0UkakY7ncD1FbT+fJPMCJZI=</DigestValue></Reference></SignedInfo><SignatureValue>g6zwJlKK3ikMqzDM+rwxxPEAv0mAkXmlNyzEvyPQ6KWFFzxcxrWQ419vOsDXyFQ5ZZmMV7zIa9S4Q0vtwzkQjLJG6zG55vaFPkzZ/TgZI6NhsDDXE8eqwCaiusi+yyejnTLYiibjeoOiIsLGWFGEO6jHweh8nlPsjhM//UsLQmY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yncnc9Wv6OVuievfBl2hIZnGkOZI3CH4+oMrxq6wfwuWdl8sWJk+ab+DiDQjBSQrNIKLDPpr4LpbnMupe6CzY1b0H+r4xqLcywjFgjrSBPuyt6iw1hRI0YYDOFEYxutfypYXbWyg2qb0dkYnnvJSV2wM6Oo2UQje/huzNjGtBVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQQmKdDzx1oq5Lsdj5oWCcSTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAMwAyAEcAQgBSAEEATQBcAFUAcwBlAHIwHhcNMTgxMTE4MDg1MDM2WhcNMTkxMTE4MTQ1MDM2WjAjMSEwHwYDVQQDHhgAMwAyAEcAQgBSAEEATQBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMp3J3PVr+jlbonr3wZdoSGZxpDmSNwh+PqDK8ausH8LlnZfLFiZPmm/g4g0IwUkKzSCiwz6a+C6W5zLqXugs2NW9B/q+Mai3MsIxYI60gT7sreosNYUSNGGAzhRGMbrX8qWF21soNqm9HZGJ57yUldsDOjqNlEI3v4bszYxrQVRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAjP588LQGPINbDJMcJM0R83JsghsvOdYox69iPHvjo4eiy11WfzasbINkfbWVuvL49MWJ2ERSS6RwcUmfeJsnW+Ul6xzMFNUOHr94t8fZpfRgr/Yv/09La7pJOzjfTvo+T1JFBBMIOwgUqaZ3SHbsd/25RnPxrz/7/lz3C7OspmY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace LBABodyRandomise
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnFindLoc_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog oFDBodyLoc = new OpenFileDialog();
+
+            oFDBodyLoc.InitialDirectory = "c:\\";
+            oFDBodyLoc.Filter = "BODY.HQR|BODY.HQR";
+            oFDBodyLoc.FilterIndex = 0;
+
+            if (oFDBodyLoc.ShowDialog() == DialogResult.OK)
+            {
+                if (0 != oFDBodyLoc.FileName.Length)
+                {
+                    txtBodyLoc.Text = oFDBodyLoc.FileName;
+                }
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
