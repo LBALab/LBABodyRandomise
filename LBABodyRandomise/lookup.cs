@@ -30,9 +30,8 @@ namespace LBABodyRandomise
         private void parseBodyFile(string p)
         {
             XmlDocument doc = new XmlDocument();
-            Console.WriteLine(new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath);
+            
             p = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\" + p;
-            Console.WriteLine(p);
             doc.Load(p);
 
             XmlNodeList nodes = doc.DocumentElement.SelectNodes("/hqr/offsets/offset");
