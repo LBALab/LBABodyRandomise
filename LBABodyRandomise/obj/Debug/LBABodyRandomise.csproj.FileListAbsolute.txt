@@ -1,8 +1,6 @@
 R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\lba.xml
 R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\lba2.xml
 R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\LBABodyRandomise.exe.config
-R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\LBABodyRandomise.exe.manifest
-R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\LBABodyRandomise.application
 R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\LBABodyRandomise.exe
 R:\LBA\LBABodyRandomise\LBABodyRandomise\bin\Debug\LBABodyRandomise.pdb
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.csprojAssemblyReference.cache
@@ -11,7 +9,5 @@ R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.LBABodyRand.
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.Properties.Resources.resources
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.csproj.GenerateResource.cache
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.csproj.CoreCompileInputs.cache
-R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.exe.manifest
-R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.application
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.exe
 R:\LBA\LBABodyRandomise\LBABodyRandomise\obj\Debug\LBABodyRandomise.pdb
